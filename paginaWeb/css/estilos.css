@@ -1,0 +1,154 @@
+* {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: linear-gradient(150deg, #000000,  #ff0000 , #000000);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+.headerInicial {
+    background-color: #5876fc;
+    width: 82%;
+    height: 90px;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: solid black;
+}
+
+section {
+    height: 100px;
+}
+
+
+/* Forma #1 Clases */
+
+.headerSubtitulo {
+    height: 60px;
+    width: 80%;
+    background-color: #5c5b5b;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: solid black;
+}
+
+.sectionIzquierdo {
+    background-color: #5876fc;
+    width: 40%;
+    height: 900px;
+    border-radius: 10px;
+    margin-left: 10%;
+    float: left;
+    border: solid black;
+}
+
+.menuSectionIzquierdo {
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #555555;
+    border: solid black;
+    margin-left: 10%;
+}
+
+.footerSectionIzquierdo {
+    width: 85%;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 8%;
+    background-color: #555555;
+    border: solid black;
+}
+
+.sectionDerecho {
+    background-color: #5876fc;
+    width: 40%;
+    height: 900px;
+    border-radius: 10px;
+    margin-left: 10px;
+    float: left;
+    border: solid black;
+}
+
+.articleSectionDerecho {
+    width: 90%;
+    margin-left: 5%;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.articuloContenido {
+    width: 90%;
+    background-color: #555555;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: solid black;
+}
+
+.parrafoArticleDerecho {
+    width: 48%;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #555555;
+    margin-left: 5%;
+    float: left;
+    border: solid black;
+}
+
+.asideArticleDerecho {
+    float: left;
+    width: 30%;
+    height: 90px;
+    margin-top: 1px;
+    margin-left: 40px;
+    background-color: #555555;
+    border-radius: 10px;
+    border: solid black;
+}
+
+.footerArticleDerecho {
+    height: 40px;
+    width: 90%;
+    background-color: #555555;
+    margin-left: 5%;
+    margin-top: 130px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid black;
+}
+
+.footerFinal {
+    background-color: #5876fc;
+    width: 82%;
+    height: 90px;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 920px;
+    border: solid black;
+}
+
+
+/* Forma #2 Identificadores (ID)*/
+
+#menuInicial {
+    background-color: #555555;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: solid black;
+}
+
+
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
